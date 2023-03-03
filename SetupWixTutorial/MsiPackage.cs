@@ -17,7 +17,7 @@ namespace SetupWixTutorial
     {
         internal const string ProductId = "ProductPackageId";
         internal const string ProductName = "My Very Awesome App";
-        private const string Description = "Центральный сервер управления";
+        private const string Description = "Моя супер крутая программа";
         internal const string CompanyName = "My Company";
 
         internal static readonly Guid Guid = new Guid("4FEFE8E1-F19C-40A7-8562-FDAF8D12EC63");
@@ -56,9 +56,9 @@ namespace SetupWixTutorial
                 BackgroundImage = Path.Combine(itemsDir, "Resources", "banner_left.png"),
                 BannerImage = Path.Combine(itemsDir, "Resources", "banner_up.png"),
                 LicenceFile = Path.Combine(itemsDir, "Resources", "licence.rtf"),
-#if (DEBUG)
+    #if (DEBUG)
                 PreserveTempFiles = true
-#endif
+    #endif
             };
 
             //custom set of standard UI dialogs
@@ -105,9 +105,6 @@ namespace SetupWixTutorial
 
             foreach (var subDir in Directory.GetDirectories(dirPath))
                 ProcessDir(dir, Path.Combine(parentPath, dirName), subDir, filters);
-
         }
-
-
     }
 }
