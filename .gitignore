@@ -365,3 +365,5 @@ FodyWeavers.xsd
 *.wxs
 *.msi
 *.exe
+WixSharp.UI.CA.dll
+WixSharp.CA.dll
