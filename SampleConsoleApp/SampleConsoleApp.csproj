@@ -8,7 +8,7 @@
 	  
 	<AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
 	<AppendRuntimeIdentifierToOutputPath>false</AppendRuntimeIdentifierToOutputPath>
-	<OutputPath>..\bin</OutputPath>
+	<OutputPath>..\bin1</OutputPath>
   </PropertyGroup>
 
 </Project>
